@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Pinturas/static/css/main.2cda7901.css",
-    "main.js": "/Pinturas/static/js/main.b038aa47.js",
+    "main.js": "/Pinturas/static/js/main.1e37b2b0.js",
     "index.html": "/Pinturas/index.html",
     "main.2cda7901.css.map": "/Pinturas/static/css/main.2cda7901.css.map",
-    "main.b038aa47.js.map": "/Pinturas/static/js/main.b038aa47.js.map"
+    "main.1e37b2b0.js.map": "/Pinturas/static/js/main.1e37b2b0.js.map"
   },
   "entrypoints": [
     "static/css/main.2cda7901.css",
-    "static/js/main.b038aa47.js"
+    "static/js/main.1e37b2b0.js"
   ]
 }
