@@ -1,0 +1,94 @@
+.pinturas__container{
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    flex-wrap: wrap;
+}
+.pintura_container{
+    padding: 20px;
+    width: 33.3%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    background-color: inherit;
+    transition: background-color .5s ease;
+}
+.pintura_container:hover{
+    background-color: #4dc5ff;
+    transition: .5s;
+}
+/* CLICKED */
+.pintura_container_clicked{
+    padding: 20px;
+    width: 33.3%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    background-color: #0c59c1;
+    transition: background-color .5s ease-out;
+}
+
+.pintura_container img, .pintura_container_clicked img{
+    width: 100%;
+    height: auto;
+}
+.detalles{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.detalles h2{
+    font-size: 1em;
+}
+.detalles h3{
+    font-size: .8em;
+}
+
+/* Clicked h3 */
+.texto_tit{
+    transition: .2s;
+    color: #866448;
+    height: auto;
+    overflow: hidden;
+}
+.texto__clicked_tit{
+    height: auto;
+    overflow: hidden;
+    color: azure;
+    transition: .2s;
+}
+.texto{
+    transition: .2s;
+    color: #866448;
+    height: 32px;
+    overflow: hidden;
+}
+.texto__clicked{
+    height: 32px;
+    overflow: hidden;
+    color: azure;
+    transition: .2s;
+}
+
+@media all and (min-width: 480px) and (max-width: 780px) { 
+    .pinturas__container{
+        width: 95%;
+    }
+    .pintura_container{
+        width: 49%;
+    }
+}
+@media all and (max-width: 480px) { 
+    .pinturas__container{
+        width: 90%;
+    }
+    .pintura_container{
+        width: 100%;
+    }
+    .detalles h3{
+        height: 30px;
+    }
+}
+

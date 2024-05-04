@@ -1,0 +1,106 @@
+/* RESPONSIVE */
+
+
+.button{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.line{
+    height: 3px;
+    width: 140%;
+    position: absolute;
+    background-color: #011022;
+}
+.button_click{
+    height: 100%;
+    width: auto;
+    z-index: 10;
+    background-color: aliceblue;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #10498f;
+    transition: .5s;
+}
+.button_click:hover{
+    transition: .5s;
+    background-color: rgb(179, 197, 212);
+}
+
+.links__pinturas__responsive{
+    width: 100vw;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    overflow: hidden;
+    transition: height .8s ease;
+}
+.links__pinturas__responsive li{
+    padding: 8px 15px;
+    font-size: 1.2em;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+#close{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none;
+    border-bottom: solid 1px black;
+}
+
+@media all and (min-width: 480px) and (max-width: 780px) { 
+    .links__responsive{
+        left: inherit;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+@media all and (max-width: 480px) { 
+    .links__responsive{
+        left: inherit;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .links__pinturas{
+        position: absolute;
+        opacity: 0;
+        top: -1000px;
+    }
+    .pic_logo{
+        border: none;
+        height: auto;
+    }
+    .personal_logo{
+        width: 100%;
+        font-size: 1em;
+        flex-direction: column;
+    }
+    .personal_logo h1{
+        font-size: 2.5em;
+    }
+    .personal_logo img{
+        height: 70px;
+        width: 70px;
+        margin-top: 30px;
+    }
+    .nav{
+        position: absolute;
+        opacity: 0;
+        top: -100px;
+    }
+}

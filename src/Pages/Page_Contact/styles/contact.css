@@ -1,0 +1,22 @@
+article{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 50px;
+}
+.contact__info{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 45px;
+}
+.contact__info ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+
+}

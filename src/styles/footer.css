@@ -1,0 +1,31 @@
+footer{
+    padding: 25px 0;
+    height: auto;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: solid black 3px;
+}
+.footer__container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.redes ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+.spam{
+    position: absolute;
+    font-size: .6em;
+    bottom: 2px;
+    right: 2px;
+}
+.spam a{
+    font-family: "Poppins", sans-serif;
+    color: rgb(15, 25, 66);
+}

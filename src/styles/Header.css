@@ -1,0 +1,138 @@
+header {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 0 15%;
+}
+.pic_logo {
+  display: flex;
+  flex-direction: column;
+  height: 25vh;
+  position: relative;
+  width: 100%;
+  border-bottom: solid black 5px;
+  justify-content: space-between;
+}
+.pic_logo img {
+  height: 80%;
+  width: 100%;
+}
+.personal_logo {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+  align-items: center;
+  width: 70%;
+  height: 50%;
+}
+.nav {
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav ul {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  justify-content: start;
+  list-style: none;
+}
+.nav ul a {
+  text-decoration: none;
+  color: #10498f;
+  font-size: 1.2em;
+}
+
+.personal_logo img {
+  width: 100px;
+  height: 80%;
+}
+.personal_logo h1 {
+  /* color: #0c59c1; */
+  color: black;
+  font-size: 3em;
+  font-family: sans-serif;
+}
+.personal_logo a {
+  text-decoration: none;
+}
+
+nav {
+  padding: 10px;
+  margin-bottom: 30px;
+  border-bottom: solid black 2px;
+
+}
+.links__pinturas {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  height: auto;
+  list-style: none;
+}
+nav ul a {
+  text-decoration: none;
+  color: #10498f;
+  font-size: 1em;
+}
+nav a:hover,
+.nav a:hover {
+  color: #75889f;
+}
+
+.links__responsive {
+  position: absolute;
+  opacity: 0;
+  left: -1000px;
+}
+
+@media all and (min-width: 480px) and (max-width: 780px) {
+  .links__responsive {
+    position: relative;
+    opacity: 1;
+  }
+  .links__pinturas {
+    position: absolute;
+    opacity: 0;
+    top: -1000px;
+  }
+  .pic_logo {
+    border: none;
+    height: auto;
+  }
+  .personal_logo {
+    width: 100%;
+    font-size: 1em;
+    flex-direction: column;
+  }
+  .personal_logo h1 {
+    font-size: 2.5em;
+  }
+  .personal_logo img {
+    height: 70px;
+    width: 70px;
+    margin-top: 30px;
+  }
+  .nav {
+    position: absolute;
+    opacity: 0;
+    top: -100px;
+  }
+  nav{
+    border: none;
+  }
+}
+@media all and (max-width: 480px) {
+  .links__responsive {
+    position: relative;
+    opacity: 1;
+  }
+  nav{
+    border: none;
+  }
+}
