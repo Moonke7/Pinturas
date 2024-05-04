@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Moonke7.github.io/Pinturas/static/css/main.2cda7901.css",
-    "main.js": "/Moonke7.github.io/Pinturas/static/js/main.4d2c134d.js",
-    "index.html": "/Moonke7.github.io/Pinturas/index.html",
-    "main.2cda7901.css.map": "/Moonke7.github.io/Pinturas/static/css/main.2cda7901.css.map",
-    "main.4d2c134d.js.map": "/Moonke7.github.io/Pinturas/static/js/main.4d2c134d.js.map"
+    "main.css": "/Pinturas/static/css/main.2cda7901.css",
+    "main.js": "/Pinturas/static/js/main.4d2c134d.js",
+    "index.html": "/Pinturas/index.html",
+    "main.2cda7901.css.map": "/Pinturas/static/css/main.2cda7901.css.map",
+    "main.4d2c134d.js.map": "/Pinturas/static/js/main.4d2c134d.js.map"
   },
   "entrypoints": [
     "static/css/main.2cda7901.css",
