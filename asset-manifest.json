@@ -1,13 +1,32 @@
 {
   "files": {
-    "main.css": "/Pinturas/static/css/main.2cda7901.css",
-    "main.js": "/Pinturas/static/js/main.1e37b2b0.js",
+    "main.css": "/Pinturas/static/css/main.8f89b6cc.css",
+    "main.js": "/Pinturas/static/js/main.1f5e8f34.js",
+    "static/media/IMG_2123.jpg": "/Pinturas/static/media/IMG_2123.6b804ae61f1a62b8320b.jpg",
+    "static/media/IMG_2193.jpg": "/Pinturas/static/media/IMG_2193.b050fce22a27964f3d10.jpg",
+    "static/media/IMG_2191.jpg": "/Pinturas/static/media/IMG_2191.746f7220f8d21c583229.jpg",
+    "static/media/IMG_0756.jpg": "/Pinturas/static/media/IMG_0756.2ed9bfed48f5f8bf016c.jpg",
+    "static/media/IMG_2194.jpg": "/Pinturas/static/media/IMG_2194.fef0a3996bc6f2e0dd77.jpg",
+    "static/media/IMG_9123.jpg": "/Pinturas/static/media/IMG_9123.71dfe28494cccbed1f99.jpg",
+    "static/media/IMG_2070.jpg": "/Pinturas/static/media/IMG_2070.c802da9f46dce03d7077.jpg",
+    "static/media/IMG_2080.jpg": "/Pinturas/static/media/IMG_2080.3899cc9f78151ca4d749.jpg",
+    "static/media/IMG_2073.jpg": "/Pinturas/static/media/IMG_2073.45190ea4969b9c65f1c1.jpg",
+    "static/media/IMG_2188.jpg": "/Pinturas/static/media/IMG_2188.4f31a231d7ee55412598.jpg",
+    "static/media/IMG_2543.jpg": "/Pinturas/static/media/IMG_2543.08a885f674626646e297.jpg",
+    "static/media/Screenshot_20241016_235344_Instagram.jpg": "/Pinturas/static/media/Screenshot_20241016_235344_Instagram.a987112f7266e42697ee.jpg",
+    "static/media/IMG_2562 1.jpg": "/Pinturas/static/media/IMG_2562 1.291eb647527d0642c176.jpg",
+    "static/media/IMG_0748.jpg": "/Pinturas/static/media/IMG_0748.8633bb48f8d64d020bc4.jpg",
+    "static/media/(4)cuerpo(25x24).jpg": "/Pinturas/static/media/(4)cuerpo(25x24).767eac037c601213c42c.jpg",
+    "static/media/1.jpg": "/Pinturas/static/media/1.247fe5ed03d830291023.jpg",
+    "static/media/Sin título-1.jpg": "/Pinturas/static/media/Sin título-1.bb3a537fc2f204784181.jpg",
+    "static/media/Pintura Humana-Tierra.jpg": "/Pinturas/static/media/Pintura Humana-Tierra.a4fb359ede5b0b048996.jpg",
+    "static/media/CV.docx": "/Pinturas/static/media/CV.e7c9ed9dec233fa1d1fe.docx",
     "index.html": "/Pinturas/index.html",
-    "main.2cda7901.css.map": "/Pinturas/static/css/main.2cda7901.css.map",
-    "main.1e37b2b0.js.map": "/Pinturas/static/js/main.1e37b2b0.js.map"
+    "main.8f89b6cc.css.map": "/Pinturas/static/css/main.8f89b6cc.css.map",
+    "main.1f5e8f34.js.map": "/Pinturas/static/js/main.1f5e8f34.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cda7901.css",
-    "static/js/main.1e37b2b0.js"
+    "static/css/main.8f89b6cc.css",
+    "static/js/main.1f5e8f34.js"
   ]
 }
