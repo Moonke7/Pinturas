@@ -26,7 +26,6 @@ function Pinturas() {
           <Link to="/Obras" onClick={() => handleClick(pintura, index)}> <img style={{cursor: "pointer"}} src={pintura.picture[0]} alt="pic"></img> </Link>
           <div className="detalles">
             <h2 className={mouseOverIndex === index ? "texto__clicked_tit": "texto_tit"}>{pintura.name} ({pintura.year})</h2>
-            <h3 className={mouseOverIndex === index ? "texto__clicked": "texto"}>{pintura.description}</h3>
           </div>
         </div>
       ))}
