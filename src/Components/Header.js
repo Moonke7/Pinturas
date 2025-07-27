@@ -38,7 +38,7 @@ function Header() {
               <Link to="/Bio"> Bio / CV </Link>
             </li>
             <li>
-              <Link to="/obras"> Portafolio </Link>
+              <Link to="/"> Portafolio </Link>
             </li>
           </ul>
         </div>
