@@ -32,6 +32,17 @@ export let json = [
       Muestra_de_Acciones_Multidisciplinarias_2021_2023_IMG_2194,
     ],
   },
+  {
+    name: "Proyecto Humano-Tierra",
+    year: "2021",
+    picture: [
+      sintro_PICA_1,
+      sintro_PICA_Pintura_Humana_Tierra,
+      pic2,
+      Cuando_Miro_Grito_IMG_0756,
+    ],
+    description: "Para mas informacion, visita: https://modulattions.wixsite.com/proyecto-humano---ti"
+  }
   /* {
     name: "Pintura Humana-Tierra",
     year: "2023",

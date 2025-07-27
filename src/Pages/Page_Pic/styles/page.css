@@ -2,19 +2,20 @@
     width: 70%;
 }
 .title h2{
-    font-size: 2.2em;
+    font-size: 1.5em;
     width: 60%;
+    font-weight: 400;
 }
 
 .info{
     display: flex;
     gap: 30px;
     font-size: .8em;
-    color: #10498f;
+    color: black;
 }
 .info a{
     text-decoration: none;
-    color: #10498f;
+    color: black;
 }
 .info a:hover{
     color: #75889f;

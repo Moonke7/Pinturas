@@ -31,6 +31,7 @@ function InformacionPintura({ titulo, description, pintura }) {
           </h4>
         </div>
       </div>
+      {description && <Description description={description} />}
       <img id="mainPic" src={pintura.picture[0]} alt="foto_principal"></img>
       <div className="desc-morePics">
         <Fotos pintura={pintura} />

@@ -25,7 +25,12 @@
 }
 
 .container__descp{
-    width: 50%;
+    width: 70%;
+    margin: 10px 0
+}
+.container__descp h4{
+    font-size: 1.2em;
+    font-weight: 400;
 }
 
 @media all and (min-width: 480px) and (max-width: 780px) { 
@@ -49,7 +54,7 @@
         object-fit: cover;
     }
     .container__descp{
-        width: 100%;
+        width: 80%;
         font-size: .9em;
         margin-bottom: 30px;
     }

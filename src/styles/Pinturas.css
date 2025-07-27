@@ -40,7 +40,7 @@
     gap: 5px;
 }
 .detalles h2{
-    font-size: 1em;
+    font-size: .8em;
 }
 .detalles h3{
     font-size: .8em;
@@ -49,14 +49,14 @@
 /* Clicked h3 */
 .texto_tit{
     transition: .2s;
-    color: #866448;
+    color: black;
     height: auto;
     overflow: hidden;
 }
 .texto__clicked_tit{
     height: auto;
     overflow: hidden;
-    color: azure;
+    color: black;
     transition: .2s;
 }
 .texto{
