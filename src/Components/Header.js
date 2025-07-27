@@ -4,6 +4,7 @@ import { json } from "../json";
 import { Link } from "react-router-dom";
 import { usePintura } from "../globalContext";
 import { useState } from "react";
+//import foto from "../pics/Screenshot_20241016_235344_Instagram.jpg"
 
 function Header() {
   const { handleClick } = usePintura();
@@ -31,38 +32,35 @@ function Header() {
         <div className="nav">
           <ul>
             <li>
-              <Link to="/Bio"> BIO </Link>
+              <Link to="/"> Inicio </Link>
             </li>
             <li>
-              <a href="https://facebook.com"> CV </a>
+              <Link to="/Bio"> Bio / CV </Link>
             </li>
             <li>
-              <a href="/obras"> Obras </a>
-            </li>
-            <li>
-              <a href="/Contact"> Contacto </a>
+              <Link to="/obras"> Portafolio </Link>
             </li>
           </ul>
         </div>
         <div className="personal_logo">
-          <img
+          {/* <img
             alt="no img"
-            src="https://static.vecteezy.com/system/resources/thumbnails/009/734/564/small_2x/default-avatar-profile-icon-of-social-media-user-vector.jpg"
-          ></img>
+            src={foto}
+          ></img> */}
           <Link to={"/"}>
             <h1>Abril Carreño</h1>
           </Link>
         </div>
       </div>
       <nav>
-        <ul className="links__pinturas">
+        {/* <ul className="links__pinturas">
           {json.map((pintura, index) => (
             <li key={pintura.name} onClick={() => handleClick(pintura, index)}>
               {" "}
               <Link to={`/obras/`}> {pintura.name} </Link>{" "}
             </li>
           ))}
-        </ul>
+        </ul> */}
         <div className="links__responsive">
           <div className="button">
             <span className="line"></span>
@@ -97,88 +95,11 @@ function Header() {
             }}
           >
             <li>
-              <Link to="/Bio"> BIO </Link>
+              <Link to="/Bio"> Bio / CV </Link>
             </li>
             <li>
-              <a href="https://facebook.com"> CV </a>
+              <Link to="/obras"> Portafolio </Link>
             </li>
-            <li>
-              <a href="/obras"> Obras </a>
-            </li>
-            <li>
-              <a href="/Contact"> Contacto </a>
-            </li>
-
-            <li> - 2018 - </li>
-            {filtrarAño("2018").map((pintura, index) => (
-              <li
-                key={pintura.name}
-                onClick={() => handleClick(pintura, index)}
-              >
-                {" "}
-                <Link to={`/obras/`}> {pintura.name} </Link>{" "}
-              </li>
-            ))}
-            <li> - 2019 - </li>
-            {filtrarAño("2019").map((pintura, index) => (
-              <li
-                key={pintura.name}
-                onClick={() => handleClick(pintura, index)}
-              >
-                {" "}
-                <Link to={`/obras/`}> {pintura.name} </Link>{" "}
-              </li>
-            ))}
-            <li> - 2020 - </li>
-            {filtrarAño("2020").map((pintura, index) => (
-              <li
-                key={pintura.name}
-                onClick={() => handleClick(pintura, index)}
-              >
-                {" "}
-                <Link to={`/obras/`}> {pintura.name} </Link>{" "}
-              </li>
-            ))}
-            <li> - 2021 - </li>
-            {filtrarAño("2021").map((pintura, index) => (
-              <li
-                key={pintura.name}
-                onClick={() => handleClick(pintura, index)}
-              >
-                {" "}
-                <Link to={`/obras/`}> {pintura.name} </Link>{" "}
-              </li>
-            ))}
-            <li> - 2022 - </li>
-            {filtrarAño("2022").map((pintura, index) => (
-              <li
-                key={pintura.name}
-                onClick={() => handleClick(pintura, index)}
-              >
-                {" "}
-                <Link to={`/obras/`}> {pintura.name} </Link>{" "}
-              </li>
-            ))}
-            {/* <li id="close" onClick={handleMenu}>
-              Cerrar
-              {" "}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                width="24"
-                height="24"
-                color="#000000"
-                fill="none"
-              >
-                <path
-                  d="M18 15C18 15 13.5811 9.00001 12 9C10.4188 8.99999 6 15 6 15"
-                  stroke="currentColor"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>{" "}
-            </li> */}
           </ul>
         </div>
       </nav>

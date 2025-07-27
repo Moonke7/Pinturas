@@ -24,6 +24,10 @@ const router = createBrowserRouter([
     path: "/Contact",
     element: <Contact/>
   },
+  {
+    path: "/Pinturas",
+    element: <App/>
+  }
 ])
 
 //Buscador  

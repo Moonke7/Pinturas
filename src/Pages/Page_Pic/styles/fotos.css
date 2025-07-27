@@ -1,15 +1,24 @@
 .fotos{
     position: relative;
-    width: 35%;
+    width: 100%;
     height: auto;
 }
 .fotos ul{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2%;
     height: auto;
     width: 100%;
     list-style: none;
 }
+
+.fotos li{
+    width: 32%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
 .fotos img{
     width: 100%;
     height: auto;

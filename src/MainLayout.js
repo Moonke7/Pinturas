@@ -1,12 +1,12 @@
 import Header from "./Components/Header";
-
+import './styles/App.css';
 
 export function MainLayout({ children}) {
 
   return (
-    <div>
+    <div className="main-layout">
       <Header/>
-      <div>{children}</div>
+      {children}
     </div>
   );
 }

@@ -72,6 +72,7 @@
     transition: .2s;
 }
 
+
 @media all and (min-width: 480px) and (max-width: 780px) { 
     .pinturas__container{
         width: 95%;
@@ -83,6 +84,7 @@
 @media all and (max-width: 480px) { 
     .pinturas__container{
         width: 90%;
+        height: auto;
     }
     .pintura_container{
         width: 100%;

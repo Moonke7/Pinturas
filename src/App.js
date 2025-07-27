@@ -1,6 +1,5 @@
 import "./styles/App.css";
 import Pinturas from "./Components/Pinturas";
-import { useState } from "react";
 import Footer from "./Components/Footer";
 import { MainLayout } from "./MainLayout";
 

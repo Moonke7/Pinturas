@@ -4,13 +4,11 @@ import "../styles/footer.css";
 function Footer() {
   return (
     <footer>
-      <span className="spam" >Developed by <a href="mailto:marcoscarreno78@gmail.com">Markiños</a></span>
       <div className="footer__container">
-        <img src="" alt="logo"></img>
+        {/* <img src="" alt="logo"></img> */}
         <div className="redes">
           <ul>
             <li>
-              {" "}
               <a href="">
                 {" "}
                 <svg
@@ -32,13 +30,11 @@ function Footer() {
                     stroke="currentColor"
                     stroke-width="1.5"
                   />
-                </svg>{" "}
-              </a>{" "}
+                </svg>
+              </a>
             </li>
             <li>
-              {" "}
               <a href="">
-                {" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -65,13 +61,11 @@ function Footer() {
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
-                </svg>{" "}
-              </a>{" "}
+                </svg>
+              </a>
             </li>
             <li>
-              {" "}
               <a href="">
-                {" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -93,12 +87,28 @@ function Footer() {
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
-                </svg>{" "}
-              </a>{" "}
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
+        <span>
+          Copyright ©
+          <a
+            href="/"
+            style={{
+              fontWeight: "bold",
+              color: "black",
+              textDecoration: "none",
+            }}
+          >
+            Abril Carreño
+          </a>
+        </span>
       </div>
+      <span className="spam">
+        Developed by <a href="mailto:marcoscarreno78@gmail.com">Moonke7</a>
+      </span>
     </footer>
   );
 }
