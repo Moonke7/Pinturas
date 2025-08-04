@@ -31,7 +31,7 @@ function InformacionPintura({ titulo, description, pintura }) {
         </div>
       </div>
       {description && (
-        <div style={{ width: "70%" }}>
+        <div style={{ width: "70%" }} className="vimeo-container">
           <Description description={description} />
         </div>
       )}
