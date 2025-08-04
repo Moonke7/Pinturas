@@ -24,6 +24,7 @@ export let json = [
     year: "2024",
     picture: [
       Muestra_de_Acciones_Multidisciplinarias_2021_2023_IMG_2070,
+      Muestra_de_Acciones_Multidisciplinarias_2021_2023_IMG_2070,
       Muestra_de_Acciones_Multidisciplinarias_2021_2023_IMG_2073,
       Muestra_de_Acciones_Multidisciplinarias_2021_2023_IMG_2080,
       Muestra_de_Acciones_Multidisciplinarias_2021_2023_IMG_2123,

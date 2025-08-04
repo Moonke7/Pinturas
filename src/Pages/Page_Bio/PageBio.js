@@ -11,7 +11,7 @@ function PageBio() {
       <article>
         <h2>BIO</h2>
         <div className="profile_pic">
-          <img src={foto} alt="profile_pic" style={{ width: "60%" }} />
+          <img src={foto} alt="profile_pic" />
         </div>
         <div className="description">
           <b>Abril Carreño Carvajal </b> <br />

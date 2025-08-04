@@ -92,7 +92,9 @@ function InformacionPintura({ titulo, description, pintura }) {
               Todos los derechos reservados ©`}
             />
           </div>
-          {/*  TERCER VIDEO  */}
+        </>
+      ) : (
+        <>
           <div
             style={{ position: "relative", width: "70%" }}
             className="vimeo-container"
@@ -113,14 +115,14 @@ function InformacionPintura({ titulo, description, pintura }) {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
+              className="vimeo"
             ></iframe>
             <Description
               description={`Purificar La Tierra: Limpieza y Reforestación, 2023, HD video, 8:52 minutes, Taina Villalobos, Abril Carreño.`}
             />
           </div>
+          {/* <img id="mainPic" src={pintura.picture[0]} alt="foto_principal" /> */}
         </>
-      ) : (
-        <img id="mainPic" src={pintura.picture[0]} alt="foto_principal" />
       )}
       <div className="desc-morePics">
         <Fotos pintura={pintura} />
