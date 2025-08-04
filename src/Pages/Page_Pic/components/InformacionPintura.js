@@ -37,6 +37,7 @@ function InformacionPintura({ titulo, description, pintura }) {
       )}
       {pintura.name.includes("Humano-Tierra") ? (
         <>
+          {/*  PRIMER VIDEO  */}
           <div
             style={{ position: "relative", width: "70%" }}
             className="vimeo-container"
@@ -63,6 +64,7 @@ function InformacionPintura({ titulo, description, pintura }) {
                   Todos los derechos reservados ©`}
             />
           </div>
+          {/*  SEGUNDO VIDEO  */}
           <div
             style={{ position: "relative", width: "70%" }}
             className="vimeo-container"
@@ -88,6 +90,32 @@ function InformacionPintura({ titulo, description, pintura }) {
               Colaborate with Ignacio Diaz
 
               Todos los derechos reservados ©`}
+            />
+          </div>
+          {/*  TERCER VIDEO  */}
+          <div
+            style={{ position: "relative", width: "70%" }}
+            className="vimeo-container"
+          >
+            <Description
+              description={`
+              Muestra de la accción Purificar La Tierra: Limpieza y Reforestación es un proyecto de arte situado colaborativo sobre como los humanos purificarían la tierra si esta fuera su propio cuerpo, reúne a la comunidad de la comuna de Pedro Aguirre Cerda, Santiago, Chile y la invita a reflexionar sobre que significa para ellos/ellas la identidad de ese territorio y cuales son las acciones que podríamos hacer para purificarlo.
+
+              Este proyecto es premiado en el concurso Territorio + Acción: Concurso de iniciativas estudiantiles para la vinculación con el medio, VEXCOM, Universidad de Chile. Obtiene el primer lugar en Concurso de Arte para la concientización sobre los servicios públicos y 
+              mención Honrosa por Impacto Social en el Festival IFACES`}
+            />
+            <iframe
+              width="640"
+              height="360"
+              src="https://www.youtube.com/embed/houcHU54RqY?si=CVHqhDgrtwn70BNW"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <Description
+              description={`Purificar La Tierra: Limpieza y Reforestación, 2023, HD video, 8:52 minutes, Taina Villalobos, Abril Carreño.`}
             />
           </div>
         </>
