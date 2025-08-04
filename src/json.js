@@ -16,6 +16,7 @@ import Muestra_de_Acciones_Multidisciplinarias_2021_2023_IMG_2188 from "./pics/P
 import Muestra_de_Acciones_Multidisciplinarias_2021_2023_IMG_2191 from "./pics/Pagina web/2024/Muestra de Acciones Multidisciplinarias 2021-2023/IMG_2191.jpg";
 import Muestra_de_Acciones_Multidisciplinarias_2021_2023_IMG_2193 from "./pics/Pagina web/2024/Muestra de Acciones Multidisciplinarias 2021-2023/IMG_2193.jpg";
 import Muestra_de_Acciones_Multidisciplinarias_2021_2023_IMG_2194 from "./pics/Pagina web/2024/Muestra de Acciones Multidisciplinarias 2021-2023/IMG_2194.jpg";
+import Acaricia from "./pics/Pagina web/2024/Proyecto-H-T/pic1.png";
 
 export let json = [
   {
@@ -36,10 +37,8 @@ export let json = [
     name: "Proyecto Humano-Tierra",
     year: "2021",
     picture: [
-      sintro_PICA_1,
-      sintro_PICA_Pintura_Humana_Tierra,
-      pic2,
-      Cuando_Miro_Grito_IMG_0756,
+      Acaricia,
+      Acaricia,
     ],
     description: "Para mas informacion, visita: https://modulattions.wixsite.com/proyecto-humano---ti"
   }

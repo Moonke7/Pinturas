@@ -3,11 +3,15 @@ import "../styles/fotos.css";
 
 function Description({ description }) {
   const transformDescription = (desc) => {
-    return desc.replace(
+    const withLinks = desc.replace(
       /https?:\/\/[^\s]+/g,
       (url) =>
         `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`
     );
+
+    const withLineBreaks = withLinks.replace(/\n/g, "<br>");
+
+    return withLineBreaks;
   };
 
   return (
