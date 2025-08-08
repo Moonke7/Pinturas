@@ -3,7 +3,7 @@ import { MainLayout } from "../../MainLayout";
 import Footer from "../../Components/Footer";
 import "./style/bio.css";
 import cv from "../../data/CV.docx";
-import foto from "../../pics/bioPic.jpg";
+import foto from "../../pics/bioPic.webp";
 
 function PageBio() {
   return (
