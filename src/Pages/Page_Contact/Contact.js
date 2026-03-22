@@ -15,7 +15,7 @@ function Contact() {
           <ul>
             <li>
               {" "}
-              <a href="">
+              <a href="/">
                 {" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ function Contact() {
             </li>
             <li>
               {" "}
-              <a href="">
+              <a href="/">
                 {" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +75,7 @@ function Contact() {
             </li>
             <li>
               {" "}
-              <a href="">
+              <a href="/">
                 {" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -101,7 +101,7 @@ function Contact() {
             </li>
             <li>
               {" "}
-              <a href="">
+              <a href="/">
                 {" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

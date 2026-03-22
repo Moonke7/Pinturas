@@ -9,7 +9,7 @@ function Footer() {
         <div className="redes">
           <ul>
             <li>
-              <a href="">
+              <a href="/">
                 {" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="/">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -100,8 +100,8 @@ function Footer() {
           </a>
         </span>
       </div>
-      <span className="spam">
-        Developed by <a href="mailto:marcoscarreno78@gmail.com">Moonke7</a>
+      <span className="spam" target="_blank">
+        Developed by <a href="https://github.com/Moonke7">Moonke7</a>
       </span>
     </footer>
   );

@@ -1,13 +1,13 @@
 import "../styles/Header.css";
 import "../styles/HeaderResponsive.css";
-import { json } from "../json";
+// import { json } from "../json";
 import { Link } from "react-router-dom";
-import { usePintura } from "../globalContext";
+// import { usePintura } from "../globalContext";
 import { useState } from "react";
 //import foto from "../pics/Screenshot_20241016_235344_Instagram.jpg"
 
 function Header() {
-  const { handleClick } = usePintura();
+  // const { handleClick } = usePintura();
   const [altura, setAltura] = useState("1px");
   const [menu, setMenu] = useState(false);
 
@@ -21,10 +21,10 @@ function Header() {
     }
   };
 
-  const filtrarAño = (year) => {
+  /* const filtrarAño = (year) => {
     const elementos = json.filter((elementos) => elementos.year === year);
     return elementos;
-  };
+  }; */
 
   return (
     <header>
@@ -39,6 +39,9 @@ function Header() {
             </li>
             <li>
               <Link to="/"> Portafolio </Link>
+            </li>
+            <li>
+              <Link to="/tienda"> Tienda </Link>
             </li>
           </ul>
         </div>
@@ -99,6 +102,9 @@ function Header() {
             </li>
             <li>
               <Link to="/obras"> Portafolio </Link>
+            </li>
+            <li>
+              <Link to="/tienda"> Tienda </Link>
             </li>
           </ul>
         </div>
