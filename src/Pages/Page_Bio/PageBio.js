@@ -2,7 +2,7 @@ import React from "react";
 import { MainLayout } from "../../MainLayout";
 import Footer from "../../Components/Footer";
 import "./style/bio.css";
-import cv from "../../data/CV.docx";
+import cv from "../../data/CVAbrilCarreno2026.pdf";
 import foto from "../../pics/bioPic.webp";
 
 function PageBio() {
@@ -16,18 +16,22 @@ function PageBio() {
         <div className="description">
           <b>Abril Carreño Carvajal </b> <br />
           Abril Carreño Carvajal (Rancagua, Chile, 1999) es artista visual,
-          mediadora cultural y docente. Licenciada en Artes Visuales por la
-          Universidad de Chile, su trabajo se desarrolla a través de la pintura,
-          el dibujo y la investigación artística. Su práctica explora las
-          relaciones entre los seres humanos, los territorios y los ecosistemas,
-          abordando problemáticas vinculadas a la memoria, la transformación del
-          paisaje y la crisis ecológica contemporánea.
-          <br /> <br />
-          Es directora del proyecto Humano-Tierra y actualmente desarrolla RAMA,
-          una investigación visual que propone nuevas formas de comprender la
-          interdependencia entre cuerpos humanos y no humanos. Paralelamente,
-          realiza labores de mediación cultural y enseñanza de las artes
-          visuales en diversos contextos educativos y comunitarios.
+          mediadora cultural y docente. Licenciada en Artes con mención en Artes
+          Plásticas y titulada como Pintora por la Universidad de Chile,
+          desarrolla su práctica a través de la pintura, el dibujo y la
+          investigación artística. Su trabajo explora las relaciones entre los
+          seres humanos, los territorios y los ecosistemas, abordando
+          problemáticas vinculadas a la memoria, la transformación del paisaje y
+          la crisis ecológica contemporánea.
+          <br />
+          Su trayectoria se ha orientado al cruce entre prácticas artísticas,
+          pensamiento ecológico y trabajo colaborativo, participando en
+          exposiciones, publicaciones, curadurías y espacios de reflexión en
+          torno al arte y la sustentabilidad. Su trabajo ha sido reconocido
+          mediante premios, fondos concursables y apoyos institucionales por el
+          desarrollo de proyectos que articulan prácticas artísticas, ecología y
+          vinculación territorial. Actualmente es directora del proyecto
+          Humano-Tierra y desarrolla la investigación visual RAMA.
           <br />
           <b>Contacto:</b>{" "}
           <a href="mailto:abrilcarrenocarvajal@gmail.com">
