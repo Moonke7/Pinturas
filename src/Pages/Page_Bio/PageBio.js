@@ -15,21 +15,20 @@ function PageBio() {
         </div>
         <div className="description">
           <b>Abril Carreño Carvajal </b> <br />
-          Artista visual y mediadora cultural. Nació en Rancagua, Chile, en
-          1999. Actualmente reside y trabaja en Santiago. <br /> <br />
-          Estudió Licenciatura en Artes Visuales en la Universidad de Chile,
-          donde también se formó en mediación cultural a través del CFG
-          impartido por la misma institución. Su práctica artística explora la
-          relación entre el ser humano y su entorno, abordando temas de impacto
-          social y memoria colectiva. <br /> <br />
-          Es creadora del proyecto "Humano-Tierra", obra multidisciplinaria que
-          obtuvo reconocimiento por su impacto social en el Festival
-          Internacional FACES. Esta propuesta ha sido exhibida en diversos
-          espacios culturales de Santiago, consolidándose como un cruce entre
-          arte, educación y reflexión territorial. <br /> <br />
-          Además de su producción artística, se desempeña como docente,
-          integrando perspectivas críticas y metodologías participativas en su
-          labor pedagógica. <br /> <br />
+          Abril Carreño Carvajal (Rancagua, Chile, 1999) es artista visual,
+          mediadora cultural y docente. Licenciada en Artes Visuales por la
+          Universidad de Chile, su trabajo se desarrolla a través de la pintura,
+          el dibujo y la investigación artística. Su práctica explora las
+          relaciones entre los seres humanos, los territorios y los ecosistemas,
+          abordando problemáticas vinculadas a la memoria, la transformación del
+          paisaje y la crisis ecológica contemporánea.
+          <br /> <br />
+          Es directora del proyecto Humano-Tierra y actualmente desarrolla RAMA,
+          una investigación visual que propone nuevas formas de comprender la
+          interdependencia entre cuerpos humanos y no humanos. Paralelamente,
+          realiza labores de mediación cultural y enseñanza de las artes
+          visuales en diversos contextos educativos y comunitarios.
+          <br />
           <b>Contacto:</b>{" "}
           <a href="mailto:abrilcarrenocarvajal@gmail.com">
             abrilcarrenocarvajal@gmail.com
